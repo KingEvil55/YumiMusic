@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from DAXXMUSIC import app
 from DAXXMUSIC.utils.errors import capture_err
 
-@app.on_message(filters.command("carbon"))
+@app.on_message(filters.command("cn"))
 @capture_err
 async def carbon_func(_, message):
     if not message.reply_to_message:
